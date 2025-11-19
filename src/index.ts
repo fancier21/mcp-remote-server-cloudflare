@@ -5,7 +5,7 @@ import { z } from "zod";
 // Define our MCP agent with tools
 export class MyMCP extends McpAgent {
   server = new McpServer({
-    name: "remote-mcp",
+    name: "Authless Calculator",
     version: "1.0.0",
   });
 
